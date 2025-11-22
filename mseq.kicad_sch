@@ -8873,7 +8873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 97.4852 212.09 0)
 			(effects
 				(font
@@ -8892,6 +8892,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 96.52 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603ZC104JAT2A "
+			(at 96.52 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10"
 			(at 96.52 208.28 0)
 			(effects
 				(font
@@ -14441,7 +14459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 86.0552 212.09 0)
 			(effects
 				(font
@@ -14460,6 +14478,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 85.09 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KGM15BR71A105JT "
+			(at 85.09 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "voltage rating" "10"
 			(at 85.09 208.28 0)
 			(effects
 				(font
