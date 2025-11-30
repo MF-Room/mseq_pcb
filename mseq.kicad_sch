@@ -5743,6 +5743,12 @@
 		(uuid "2a9a3518-d87d-4d72-908c-6b3d9fa60cfc")
 	)
 	(junction
+		(at 387.35 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f2312bb-201d-4c58-8e44-43d4f1d77f4a")
+	)
+	(junction
 		(at 220.98 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7250,7 +7256,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 200.66) (xy 391.16 200.66)
+			(xy 382.27 200.66) (xy 387.35 200.66)
 		)
 		(stroke
 			(width 0)
@@ -7477,6 +7483,16 @@
 			(type default)
 		)
 		(uuid "b66c0df7-442d-48bf-a2b8-569f6c80aa0c")
+	)
+	(wire
+		(pts
+			(xy 387.35 200.66) (xy 391.16 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b670e9d3-b4cb-4d2d-b259-9161b48ea35b")
 	)
 	(wire
 		(pts
@@ -10852,6 +10868,75 @@
 			(project ""
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 387.35 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b218c8c-2588-4e3d-bc9e-9e5009caa0c1")
+		(property "Reference" "C22"
+			(at 391.16 203.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 391.16 205.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 388.3152 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 387.35 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df3e12aa-1c88-45a2-8d5b-12950c81e237")
+		)
+		(pin "2"
+			(uuid "d2a7eb49-5bf3-43cd-b372-df2f33708fe9")
+		)
+		(instances
+			(project "mseq"
+				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -14710,7 +14795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 47.9552 171.45 0)
 			(effects
 				(font
@@ -14729,6 +14814,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 46.99 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KGM15BR71C105JT "
+			(at 46.99 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16"
 			(at 46.99 167.64 0)
 			(effects
 				(font
@@ -15386,6 +15489,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 387.35 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0f7bc1a-a25d-441a-84e3-8408981dfabb")
+		(property "Reference" "#PWR023"
+			(at 387.35 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 390.906 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 387.35 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 387.35 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 387.35 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9bef58b-21c1-4c0e-9447-ccbe836be72e")
+		)
+		(instances
+			(project "mseq"
+				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 140.97 251.46 180)
 		(unit 1)
@@ -15550,7 +15718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 59.3852 171.45 0)
 			(effects
 				(font
@@ -15569,6 +15737,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 58.42 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KGM15AR71C103JT "
+			(at 58.42 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16"
 			(at 58.42 167.64 0)
 			(effects
 				(font
