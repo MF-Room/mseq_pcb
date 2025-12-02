@@ -5677,6 +5677,12 @@
 		(uuid "e9221327-b340-4644-9365-d9905c527e94")
 	)
 	(junction
+		(at 353.06 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c9de351-4dd3-4b3d-b5a9-841ba3db4f2e")
+	)
+	(junction
 		(at 58.42 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5735,6 +5741,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26d25735-74a5-4b3b-901b-7d24f01cd628")
+	)
+	(junction
+		(at 353.06 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28acf066-0ca9-4217-a5bf-9bec8ab9af27")
 	)
 	(junction
 		(at 135.89 246.38)
@@ -5887,12 +5899,6 @@
 		(uuid "a072c7cf-ced2-4fff-8a5c-98f448e26686")
 	)
 	(junction
-		(at 353.06 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae3c462d-4fbf-4c5b-b85b-a810fac4e1a9")
-	)
-	(junction
 		(at 391.16 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5945,12 +5951,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9954966-029c-445f-b6fd-4a2d875d1b72")
-	)
-	(junction
-		(at 353.06 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff4e1809-bdbb-4c43-ac57-d029585e3fce")
 	)
 	(no_connect
 		(at 31.75 102.87)
@@ -7616,16 +7616,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 53.34) (xy 364.49 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6a05863-b29c-455e-8b5d-aa20bbcfd4e9")
-	)
-	(wire
-		(pts
 			(xy 144.78 194.31) (xy 144.78 195.58)
 		)
 		(stroke
@@ -7793,6 +7783,16 @@
 			(type default)
 		)
 		(uuid "d5832ee1-58bc-441e-b34c-2e66c413d323")
+	)
+	(wire
+		(pts
+			(xy 353.06 53.34) (xy 364.49 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6cf67ab-9809-4854-9036-824d2ca33501")
 	)
 	(wire
 		(pts
@@ -10900,7 +10900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 388.3152 208.28 0)
 			(effects
 				(font
@@ -10919,6 +10919,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 387.35 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "12063C475JAT2A"
+			(at 387.35 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25"
 			(at 387.35 204.47 0)
 			(effects
 				(font
@@ -11958,7 +11976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 365.4552 60.96 0)
 			(effects
 				(font
@@ -11977,6 +11995,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 364.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "06033D104JAT2A"
+			(at 364.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25"
 			(at 364.49 57.15 0)
 			(effects
 				(font
@@ -12344,6 +12380,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 353.06 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f40a48f-9c5f-4b81-afd8-ae03eec528de")
+		(property "Reference" "C12"
+			(at 356.87 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 356.87 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 354.0252 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 353.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 353.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "08053C105JAT2A"
+			(at 353.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25"
+			(at 353.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95df6965-f32a-4fb2-b015-be0d04c99084")
+		)
+		(pin "2"
+			(uuid "525203df-dee8-4b7b-ad89-5dd287db716a")
+		)
+		(instances
+			(project "mseq"
+				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:FerriteBead")
 		(at 86.36 73.66 270)
 		(unit 1)
@@ -12590,7 +12713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 23.8252 171.45 0)
 			(effects
 				(font
@@ -12609,6 +12732,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 22.86 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "08053C105JAT2A"
+			(at 22.86 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25"
 			(at 22.86 167.64 0)
 			(effects
 				(font
@@ -12806,75 +12947,6 @@
 			(project ""
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 353.06 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9692a58d-308d-4f01-b630-932d07256a59")
-		(property "Reference" "C12"
-			(at 356.87 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 356.87 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 354.0252 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 353.06 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 353.06 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0b2366a-0665-4a0a-9080-7f371ca6030f")
-		)
-		(pin "2"
-			(uuid "df0459f7-184b-4b48-afb0-b1e42bdcd62d")
-		)
-		(instances
-			(project "mseq"
-				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -14168,7 +14240,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "KAF15AR71H103JM "
+		(property "MPN" "KAF15AR71H103JM"
 			(at 62.23 72.39 0)
 			(effects
 				(font
@@ -14822,7 +14894,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "KGM15BR71C105JT "
+		(property "MPN" "KGM15BR71C105JT"
 			(at 46.99 167.64 0)
 			(effects
 				(font
@@ -15022,7 +15094,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603ZC104JAT2A "
+		(property "MPN" "0603ZC104JAT2A"
 			(at 121.92 76.2 0)
 			(effects
 				(font
@@ -15745,7 +15817,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "KGM15AR71C103JT "
+		(property "MPN" "KGM15AR71C103JT"
 			(at 58.42 167.64 0)
 			(effects
 				(font
