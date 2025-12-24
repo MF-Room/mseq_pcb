@@ -9456,34 +9456,34 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 166.37 250.19 180)
+		(at 140.97 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "26954968-52c4-4cc6-bb8a-a10ecd09c81b")
-		(property "Reference" "R10"
-			(at 168.91 248.9199 0)
+		(uuid "2a560f54-eb69-4b8e-875f-8bfd42cff271")
+		(property "Reference" "R9"
+			(at 143.51 250.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "10k"
-			(at 168.91 251.4599 0)
+			(at 143.51 252.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 168.148 250.19 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 139.192 251.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9492,7 +9492,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 250.19 0)
+			(at 140.97 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9501,7 +9501,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 166.37 250.19 0)
+			(at 140.97 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0603J10K"
+			(at 140.97 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9510,15 +9519,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1202865c-fb11-410e-8b16-d079614dd61f")
+			(uuid "50fb7c5d-e44a-49b5-ae25-83ce2ce48ceb")
 		)
 		(pin "2"
-			(uuid "9c765c65-0f31-48b5-a88f-9ce614459a52")
+			(uuid "a68232dd-3d63-4d66-9e21-126bbb699866")
 		)
 		(instances
 			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9899,6 +9908,85 @@
 			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3950260a-ab91-4a9b-8d29-d95926ed219e")
+		(property "Reference" "R11"
+			(at 147.32 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 147.32 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 143.002 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0603J10K"
+			(at 144.78 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebef9b4c-d25b-47a7-983f-059f3ba43937")
+		)
+		(pin "2"
+			(uuid "777afab8-d23d-44d4-93ee-30b3b6ae0978")
+		)
+		(instances
+			(project "mseq"
+				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -10663,7 +10751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 145.542 158.75 90)
 			(effects
 				(font
@@ -10682,6 +10770,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 147.32 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0603J10K"
 			(at 147.32 158.75 0)
 			(effects
 				(font
@@ -11766,7 +11863,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N914"
+		(property "Value" "1N4148"
 			(at 94.742 70.612 90)
 			(effects
 				(font
@@ -11775,7 +11872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 88.265 69.85 0)
 			(effects
 				(font
@@ -11784,7 +11881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+		(property "Datasheet" ""
 			(at 92.71 69.85 0)
 			(effects
 				(font
@@ -11793,7 +11890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
+		(property "Description" ""
 			(at 92.71 69.85 0)
 			(effects
 				(font
@@ -11802,17 +11899,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 92.71 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 92.71 69.85 0)
+		(property "MPN" "1N4148W-E3-08"
+			(at 92.71 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13481,6 +13569,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 166.37 250.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa0a0b8c-496d-4e29-98e2-80a52f3939cb")
+		(property "Reference" "R10"
+			(at 168.91 248.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 168.91 251.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 164.592 250.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0603J10K"
+			(at 166.37 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ec51b6e-7140-4ec3-b06a-5f9b49f4b3b9")
+		)
+		(pin "2"
+			(uuid "ecd5f7ef-21ca-4221-9f46-13734cca8afc")
+		)
+		(instances
+			(project "mseq"
+				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 17.78 208.28 0)
 		(unit 1)
@@ -14159,75 +14326,6 @@
 			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 144.78 190.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bfb472ec-8dab-4196-8e99-e633003d390d")
-		(property "Reference" "R11"
-			(at 146.812 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 146.812 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 146.558 190.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 144.78 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "816a560e-50dc-430f-a435-c558083bbad6")
-		)
-		(pin "2"
-			(uuid "86f6b265-dd5c-415a-8efc-0c687e8a7442")
-		)
-		(instances
-			(project "mseq"
-				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -15760,76 +15858,6 @@
 			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 140.97 251.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f65ddaff-1bc4-4ee2-9aa9-ea71188f49a7")
-		(property "Reference" "R9"
-			(at 143.51 250.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 143.51 252.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 142.748 251.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 140.97 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "801790db-fde4-4cbf-9e47-8eba58934068")
-		)
-		(pin "2"
-			(uuid "c0eabc86-4e44-4f33-a41b-4b5b51aa35b3")
-		)
-		(instances
-			(project "mseq"
-				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
-					(reference "R9")
 					(unit 1)
 				)
 			)
