@@ -8955,7 +8955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 318.77 212.852 90)
 			(effects
 				(font
@@ -8975,6 +8975,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 318.77 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW120620R0JNEAC"
+			(at 318.77 214.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10235,74 +10244,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 318.77 237.49 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4026d2be-4365-4cf5-aa45-0e781d804a17")
-		(property "Reference" "R4"
-			(at 318.77 231.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20"
-			(at 318.77 233.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 318.77 235.712 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 318.77 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 318.77 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4d272dbb-923f-4b03-93b6-898e87663c2e")
-		)
-		(pin "1"
-			(uuid "bd7e8180-0b79-4a82-aa21-5556d04f95cf")
-		)
-		(instances
-			(project "mseq"
-				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 118.11 40.64 0)
 		(unit 1)
@@ -10363,74 +10304,6 @@
 			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 318.77 226.06 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ba317f0-ba55-4a5b-9ea5-b842ba1e5de6")
-		(property "Reference" "R13"
-			(at 318.77 219.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20"
-			(at 318.77 222.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 318.77 224.282 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 318.77 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 318.77 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fd593c94-19f1-47e9-8c09-f6d24f5b08b6")
-		)
-		(pin "1"
-			(uuid "e17f2c49-736e-426b-9297-cb79f7dd8a9d")
-		)
-		(instances
-			(project "mseq"
-				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -12267,6 +12140,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 318.77 237.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7961bef2-8ca0-4cd4-ac39-fa7ed2b95330")
+		(property "Reference" "R4"
+			(at 318.77 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 318.77 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 318.77 235.712 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 318.77 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 318.77 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW120620R0JNEAC"
+			(at 318.77 237.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ece20b0-bf88-4985-a5ac-e9885fe86de3")
+		)
+		(pin "1"
+			(uuid "054c25a3-f4cf-44f8-89da-b53fdaee7d83")
+		)
+		(instances
+			(project "mseq"
+				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74AHCT125")
 		(at 30.48 62.23 270)
 		(unit 5)
@@ -13881,6 +13831,83 @@
 			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 318.77 226.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af32db93-0a9f-4ce7-9c2f-5d5c78e9e533")
+		(property "Reference" "R13"
+			(at 318.77 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 318.77 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 318.77 224.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 318.77 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 318.77 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW120620R0JNEAC"
+			(at 318.77 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e6d6b7c1-e533-4479-ab29-60950d8386df")
+		)
+		(pin "1"
+			(uuid "6705a806-01c6-4c2c-9299-f9ac434ca6b7")
+		)
+		(instances
+			(project "mseq"
+				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
+					(reference "R13")
 					(unit 1)
 				)
 			)
