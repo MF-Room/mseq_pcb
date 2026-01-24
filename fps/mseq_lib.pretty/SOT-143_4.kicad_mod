@@ -211,7 +211,7 @@
 		(uuid "d2bc2eb8-ac9b-4040-b80b-cdaace07865e")
 	)
 	(embedded_fonts no)
-	(model "SP0503BAHTG.stp"
+	(model "${KIPRJMOD}/fps/stps/SP0503BAHTG.stp"
 		(offset
 			(xyz 0 -0.02999999888 0.6899999873)
 		)

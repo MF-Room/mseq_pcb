@@ -211,7 +211,7 @@
 		(uuid "8182f281-6b21-47b4-9e18-e88874d4b5d8")
 	)
 	(embedded_fonts no)
-	(model "XRCGB25M000F1SBJR0.stp"
+	(model "${KIPRJMOD}/fps/stps/XRCGB25M000F1SBJR0.stp"
 		(offset
 			(xyz 0 0 0)
 		)

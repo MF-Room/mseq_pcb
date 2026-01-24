@@ -334,4 +334,15 @@
 		(uuid "8b3a65e5-1ed7-449f-b261-5c6fbdbb3cb0")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/fps/stps/57PC5F.step"
+		(offset
+			(xyz -7.5 0 10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
 )

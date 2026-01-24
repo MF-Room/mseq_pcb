@@ -338,4 +338,15 @@
 		(uuid "9f1804bd-af6b-4363-811f-aecb6a00777e")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/fps/stps/SLW-874744-6A-RA-N-D.step"
+		(offset
+			(xyz 0.5 0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
