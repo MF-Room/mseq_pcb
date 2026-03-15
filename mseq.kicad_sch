@@ -11933,6 +11933,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SLW-874744-6A-RA-N-D"
+			(at 64.77 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b7655e4-49b1-436a-8619-286efde948b7")
 		)
@@ -14557,6 +14566,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 52.07 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SLW-874744-6A-RA-N-D"
 			(at 52.07 232.41 0)
 			(effects
 				(font
