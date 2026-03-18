@@ -627,8 +627,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "/home/julien/Desktop/mseq_pcb/gerber/",
+      "pos_files": "/home/julien/Desktop/mseq_pcb/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -735,6 +735,12 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
           "show": false
         }
       ],
