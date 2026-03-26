@@ -11987,7 +11987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mseq_lib:SW_SLW-874744-6A-RA-N-D"
+		(property "Footprint" "mseq_lib:SK-12E12-G5"
 			(at 64.77 173.99 0)
 			(effects
 				(font
@@ -13399,7 +13399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mseq_lib:TL6110DF160QP"
+		(property "Footprint" "mseq_lib:SW2_1825027-A_TEC"
 			(at 34.29 158.75 0)
 			(effects
 				(font
@@ -14374,7 +14374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "mseq_lib:SWITCHCRAFT_57PC5F"
+		(property "Footprint" "mseq_lib:DIN-504"
 			(at 64.77 72.39 0)
 			(effects
 				(font
@@ -14772,7 +14772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mseq_lib:SW_SLW-874744-6A-RA-N-D"
+		(property "Footprint" "mseq_lib:SK-12E12-G5"
 			(at 52.07 242.57 0)
 			(effects
 				(font
@@ -16324,7 +16324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "mseq_lib:SWITCHCRAFT_57PC5F"
+		(property "Footprint" "mseq_lib:DIN-504"
 			(at 30.48 38.1 0)
 			(effects
 				(font
@@ -18769,7 +18769,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mseq_lib:TL6110DF160QP"
+		(property "Footprint" "mseq_lib:SW2_1825027-A_TEC"
 			(at 119.38 153.67 0)
 			(effects
 				(font
@@ -19832,7 +19832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "mseq_lib:SWITCHCRAFT_57PC5F"
+		(property "Footprint" "mseq_lib:DIN-504"
 			(at 60.96 106.68 0)
 			(effects
 				(font
