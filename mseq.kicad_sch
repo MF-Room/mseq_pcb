@@ -12450,7 +12450,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "06035A6R0JAT2A"
+		(property "MPN" "0603CG6R0C500NT"
 			(at 199.39 222.25 90)
 			(effects
 				(font
@@ -12459,7 +12459,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1856534"
+		(property "LCSC" "C37474"
 			(at 199.39 222.25 90)
 			(effects
 				(font
@@ -13024,7 +13024,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "08055A9R0JAT2A"
+		(property "MPN" "0805CG9R0C500NT"
 			(at 199.39 264.16 90)
 			(effects
 				(font
@@ -13033,7 +13033,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2219243"
+		(property "LCSC" "C1844"
 			(at 199.39 264.16 90)
 			(effects
 				(font
@@ -13907,7 +13907,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "12063C475JAT2A"
+		(property "MPN" "CL31B475KAHNNNE"
 			(at 63.5 236.22 0)
 			(effects
 				(font
@@ -13925,7 +13925,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C6039020"
+		(property "LCSC" "C1872"
 			(at 63.5 236.22 0)
 			(effects
 				(font
@@ -16033,7 +16033,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "12063C475JAT2A"
+		(property "MPN" "CL31B475KAHNNNE"
 			(at 350.52 63.5 0)
 			(effects
 				(font
@@ -16051,7 +16051,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C6039020"
+		(property "LCSC" "C1872"
 			(at 350.52 63.5 0)
 			(effects
 				(font
@@ -16608,7 +16608,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "KGM21AR71E105JU"
+		(property "MPN" "CL21F105ZAFNNNE"
 			(at 95.25 270.51 0)
 			(effects
 				(font
@@ -16626,7 +16626,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C20219930"
+		(property "LCSC" "C1761"
 			(at 95.25 270.51 0)
 			(effects
 				(font
@@ -17523,7 +17523,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "08055A9R0JAT2A"
+		(property "MPN" "0805CG9R0C500NT"
 			(at 199.39 250.19 90)
 			(effects
 				(font
@@ -17532,7 +17532,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2219243"
+		(property "LCSC" "C1844"
 			(at 199.39 250.19 90)
 			(effects
 				(font
@@ -19179,7 +19179,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "KGM21AR71E105JU"
+		(property "MPN" "CL21F105ZAFNNNE"
 			(at 87.63 200.66 0)
 			(effects
 				(font
@@ -19197,7 +19197,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C20219930"
+		(property "LCSC" "C1761"
 			(at 87.63 200.66 0)
 			(effects
 				(font
@@ -19420,7 +19420,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "KGM21AR71E105JU"
+		(property "MPN" "CL21F105ZAFNNNE"
 			(at 116.84 270.51 0)
 			(effects
 				(font
@@ -19438,7 +19438,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C20219930"
+		(property "LCSC" "C1761"
 			(at 116.84 270.51 0)
 			(effects
 				(font
@@ -19870,7 +19870,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "06035A6R0JAT2A"
+		(property "MPN" "0603CG6R0C500NT"
 			(at 199.39 236.22 90)
 			(effects
 				(font
@@ -19879,7 +19879,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1856534"
+		(property "LCSC" "C37474"
 			(at 199.39 236.22 90)
 			(effects
 				(font
@@ -20287,7 +20287,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "12063C475JAT2A"
+		(property "MPN" "CL31B475KAHNNNE"
 			(at 217.17 157.48 0)
 			(effects
 				(font
@@ -20305,7 +20305,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C6039020"
+		(property "LCSC" "C1872"
 			(at 217.17 157.48 0)
 			(effects
 				(font
