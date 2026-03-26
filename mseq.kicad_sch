@@ -11859,7 +11859,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW06031K00FKEE"
+		(property "MPN" "0603WAF1001T5E"
 			(at 367.03 63.5 0)
 			(effects
 				(font
@@ -11868,7 +11868,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4141285"
+		(property "LCSC" "C21190"
 			(at 367.03 63.5 0)
 			(effects
 				(font
@@ -15303,7 +15303,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW060347K5FKEA"
+		(property "MPN" "0603WAF4752T5E"
 			(at 345.44 88.9 0)
 			(effects
 				(font
@@ -15312,7 +15312,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844568"
+		(property "LCSC" "C23061"
 			(at 345.44 88.9 0)
 			(effects
 				(font
@@ -16827,7 +16827,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW080522K1FKEAC"
+		(property "MPN" "RT0805BRD0722K1L"
 			(at 345.44 78.74 0)
 			(effects
 				(font
@@ -16836,7 +16836,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3009719"
+		(property "LCSC" "C865310"
 			(at 345.44 78.74 0)
 			(effects
 				(font
