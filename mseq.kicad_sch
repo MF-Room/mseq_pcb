@@ -1807,190 +1807,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Crystal_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y2"
-				(at -1.2701 3.81 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "25MHz 9pF"
-				(at 1.2699 3.81 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "mseq_lib:XRCGB25M000F1SBJR0"
-				(at -0.508 -4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Two pin crystal"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "XRCGB25M000F1SBJR0"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_1_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_1_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "DIN-5_180degree_1"
 			(pin_names
 				(offset 1.016)
@@ -12014,7 +11830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mseq_lib:SK-12E12-G5"
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
 			(at 64.77 173.99 0)
 			(effects
 				(font
@@ -12023,7 +11839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+		(property "Datasheet" ""
 			(at 64.77 171.45 0)
 			(effects
 				(font
@@ -12041,7 +11857,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK-12E12-G5"
+		(property "MPN" "OS102011MA1QS1"
 			(at 64.77 163.83 0)
 			(effects
 				(font
@@ -12050,7 +11866,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C136720"
+		(property "LCSC" "C221530"
 			(at 64.77 163.83 0)
 			(effects
 				(font
@@ -14082,7 +13898,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Crystal_1")
 		(lib_id "Device:Crystal")
 		(at 213.36 257.81 90)
 		(unit 1)
@@ -14101,7 +13916,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "25MHz 9pF"
+		(property "Value" "25MHz 18pF"
 			(at 217.17 259.0799 90)
 			(effects
 				(font
@@ -14110,7 +13925,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mseq_lib:XRCGB25M000F1SBJR0"
+		(property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm"
 			(at 217.424 258.318 0)
 			(effects
 				(font
@@ -14137,7 +13952,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "XRCGB25M000F1SBJR0"
+		(property "MPN" "ABM3-25.000MHZ-D2Y-T"
 			(at 213.36 257.81 90)
 			(effects
 				(font
@@ -14146,7 +13961,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C26829317"
+		(property "LCSC" "C148312"
 			(at 213.36 257.81 90)
 			(effects
 				(font
@@ -14158,7 +13973,7 @@
 		(pin "1"
 			(uuid "5bc0a97c-6456-4fb0-824c-519f79050f81")
 		)
-		(pin "3"
+		(pin "2"
 			(uuid "03220c5e-44e2-4d07-ad06-adc390996d16")
 		)
 		(instances
@@ -14826,7 +14641,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mseq_lib:SK-12E12-G5"
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
 			(at 52.07 242.57 0)
 			(effects
 				(font
@@ -14835,7 +14650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+		(property "Datasheet" ""
 			(at 52.07 240.03 0)
 			(effects
 				(font
@@ -14853,7 +14668,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK-12E12-G5"
+		(property "MPN" "OS102011MA1QS1"
 			(at 52.07 232.41 0)
 			(effects
 				(font
@@ -14862,7 +14677,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C136720"
+		(property "LCSC" "C221530"
 			(at 52.07 232.41 0)
 			(effects
 				(font
@@ -15909,7 +15724,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 157.48 246.38 0)
 			(effects
 				(font
@@ -15936,7 +15751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Sim.Pins" ""
 			(at 157.48 246.38 0)
 			(effects
 				(font
@@ -15945,7 +15760,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AA4040LZGCKT-AMT"
+		(property "MPN" "E6Q0603VGAC1UDA"
 			(at 157.48 246.38 0)
 			(effects
 				(font
@@ -15954,7 +15769,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5447663"
+		(property "LCSC" "C375576"
 			(at 157.48 246.38 0)
 			(effects
 				(font
@@ -17775,7 +17590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 157.48 257.81 0)
 			(effects
 				(font
@@ -17802,7 +17617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "MPN" "E6Q0603QBAC1UDA"
 			(at 157.48 257.81 0)
 			(effects
 				(font
@@ -17811,16 +17626,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AA4040LQBS/D-AMT "
-			(at 157.48 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5571318"
+		(property "LCSC" "C375575"
 			(at 157.48 257.81 0)
 			(effects
 				(font
@@ -18118,7 +17924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 157.48 269.24 0)
 			(effects
 				(font
@@ -18145,7 +17951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "MPN" "E6Q0603QBAC1UDA"
 			(at 157.48 269.24 0)
 			(effects
 				(font
@@ -18154,16 +17960,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AA4040LQBS/D-AMT "
-			(at 157.48 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5571318"
+		(property "LCSC" "C375575"
 			(at 157.48 269.24 0)
 			(effects
 				(font
