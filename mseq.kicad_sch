@@ -10983,7 +10983,7 @@
 			(uuid "54cbacb6-c2f5-47ba-af1f-a72285d3b100")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "U2")
 					(unit 1)
@@ -11133,7 +11133,7 @@
 			(uuid "3d9d649d-8fbe-42fb-afe4-6f82b976f843")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "R11")
 					(unit 1)
@@ -11293,7 +11293,7 @@
 			(uuid "c5307e2d-eaee-44c4-9745-311923d6c1aa")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "#PWR09")
 					(unit 1)
@@ -11327,7 +11327,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 34.29 247.65 0)
 			(effects
 				(font
@@ -11354,7 +11354,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "USB4085-GF-A"
+		(property "MPN" "TYPE-C-31-M-12"
 			(at 30.48 247.65 0)
 			(effects
 				(font
@@ -11363,7 +11363,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7095263"
+		(property "LCSC" "C165948"
 			(at 30.48 247.65 0)
 			(effects
 				(font
@@ -11412,7 +11412,7 @@
 			(uuid "0dda200f-e012-44e2-b5e9-2227f348574d")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "P1")
 					(unit 1)
@@ -11567,7 +11567,7 @@
 			(uuid "3d3bd873-384f-416c-bdff-de8160f797e7")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "Y1")
 					(unit 1)
@@ -11796,7 +11796,7 @@
 			(uuid "cb97064c-0080-4f48-853e-fcec9074ae37")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "#PWR011")
 					(unit 1)
@@ -11884,7 +11884,7 @@
 			(uuid "c3027d50-f0a3-4741-b36c-2ce99523f789")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "R16")
 					(unit 1)
@@ -12256,7 +12256,7 @@
 			(uuid "8662200a-6bb6-48ed-85b1-083f5f8d0590")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "U1")
 					(unit 4)
@@ -12801,7 +12801,7 @@
 			(uuid "33145996-c2b9-4893-8577-6e1b2efd0541")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "D2")
 					(unit 1)
@@ -13181,7 +13181,7 @@
 			(uuid "869bc731-836e-4667-9602-5d4ce775e933")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "#PWR018")
 					(unit 1)
@@ -13845,7 +13845,7 @@
 			(uuid "f97f01bd-6c27-42ea-baed-bcaa4feda9d3")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "U3")
 					(unit 1)
@@ -14725,7 +14725,7 @@
 			(uuid "1ba1b8a4-4437-4890-8d9f-d7bea2370c08")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "U4")
 					(unit 1)
@@ -14881,7 +14881,7 @@
 			(uuid "acd8383a-8d10-43b3-bca2-ae28b2c6646c")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "SW2")
 					(unit 1)
@@ -15053,7 +15053,7 @@
 			(uuid "9436cc5a-51e3-46fd-a29c-20699baa8749")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "D1")
 					(unit 1)
@@ -15240,7 +15240,7 @@
 			(uuid "8662200a-6bb6-48ed-85b1-083f5f8d0591")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "U1")
 					(unit 2)
@@ -15413,7 +15413,7 @@
 			(uuid "a6166b1d-18c6-40f9-a546-454f7afa1c97")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "FB6")
 					(unit 1)
@@ -15875,7 +15875,7 @@
 			(uuid "8662200a-6bb6-48ed-85b1-083f5f8d0592")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "U1")
 					(unit 5)
@@ -15970,7 +15970,7 @@
 			(uuid "5691387d-d366-4d42-9e46-5d6358e4fcee")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "D3")
 					(unit 1)
@@ -16132,7 +16132,7 @@
 			(uuid "32017d5e-7d68-4349-bbdb-6a7f1bb31380")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "#PWR024")
 					(unit 1)
@@ -16481,7 +16481,7 @@
 			(uuid "2e73bfd9-38bc-4de6-9f57-2968b17af5d6")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "MIDI_IN1")
 					(unit 1)
@@ -16764,7 +16764,7 @@
 			(uuid "8662200a-6bb6-48ed-85b1-083f5f8d0593")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "U1")
 					(unit 3)
@@ -17049,7 +17049,7 @@
 			(uuid "70ed9bf4-b4cc-4c11-8005-f916fd617fc4")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "#PWR04")
 					(unit 1)
@@ -18483,7 +18483,7 @@
 			(uuid "d021d338-2841-49dc-a21d-90e029f4c0e5")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "J2")
 					(unit 1)
@@ -19358,7 +19358,7 @@
 			(uuid "024ba78b-d41f-4882-946d-46d27cf99cce")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "U5")
 					(unit 1)
@@ -19576,7 +19576,7 @@
 			(uuid "8662200a-6bb6-48ed-85b1-083f5f8d0594")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "U1")
 					(unit 1)
@@ -19743,7 +19743,7 @@
 			(uuid "42f226a0-c9b9-41c9-8a17-73a42adbaff0")
 		)
 		(instances
-			(project ""
+			(project "mseq"
 				(path "/4f5593bf-962d-4fa9-909b-449bd6b94d0f"
 					(reference "J1")
 					(unit 1)

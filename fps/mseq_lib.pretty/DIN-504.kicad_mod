@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -4.445 -10.795 0)
+		(at -6 -11.5 0)
 		(layer "F.SilkS")
 		(uuid "87cd8b5a-eedb-4d50-90e0-6732c3177e30")
 		(effects
@@ -110,20 +110,9 @@
 		(layer "F.SilkS")
 		(uuid "7a9e9c0e-cc04-4206-a519-f7fb299411a9")
 	)
-	(fp_circle
-		(center 5.2 10.6)
-		(end 5.3 10.6)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "9d02c101-4446-4791-a3c1-d9c60c6b60ca")
-	)
 	(fp_line
-		(start -7.74 -10.25)
-		(end 9.5 -10.25)
+		(start -8 -10.5)
+		(end 9.5 -10.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -132,8 +121,8 @@
 		(uuid "6e6f8f40-2c5d-477b-ab2e-528c76f5a5b0")
 	)
 	(fp_line
-		(start -7.74 10.25)
-		(end -7.74 -10.25)
+		(start -8 10.5)
+		(end -8 -10.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -142,8 +131,8 @@
 		(uuid "ff235417-62b1-4baf-b04e-de594b30e258")
 	)
 	(fp_line
-		(start 9.5 -10.2)
-		(end 9.5 10.2)
+		(start 9.5 -10.5)
+		(end 9.5 10.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -152,8 +141,8 @@
 		(uuid "0ee47fdd-642d-4bc9-ad2d-34ceae03664a")
 	)
 	(fp_line
-		(start 9.5 10.25)
-		(end -7.74 10.25)
+		(start 9.5 10.5)
+		(end -8 10.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -200,17 +189,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "c83006ec-e391-4955-9867-4881b3e3541c")
-	)
-	(fp_circle
-		(center 5.2 10.6)
-		(end 5.3 10.6)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "1a1fbaf1-6e63-4d23-a6cf-b3092a2ec517")
 	)
 	(pad "1" thru_hole circle
 		(at 5.01 7.505)
@@ -276,15 +254,4 @@
 		(uuid "8b3a65e5-1ed7-449f-b261-5c6fbdbb3cb0")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/fps/stps/57PC5F.step"
-		(offset
-			(xyz -7.5 0 10)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 -0 90)
-		)
-	)
 )
