@@ -1,0 +1,129 @@
+# Runs KiCad's ERC (schematic) and DRC (board, with schematic parity) on every push
+# and pull request that touches the design, using the official KiCad 10 container.
+#
+# Verdict: any non-excluded ERROR fails the job. Warnings are listed in the job
+# summary and as annotations but do not fail it (set FAIL_ON to "warning" to change).
+# The JSON reports are uploaded as a workflow artifact.
+
+name: KiCad ERC / DRC
+
+on:
+  push:
+    paths:
+      - "**.kicad_sch"
+      - "**.kicad_pcb"
+      - "**.kicad_pro"
+      - "**.kicad_dru"
+      - "fp-lib-table"
+      - "sym-lib-table"
+      - "fps/**"
+      - ".github/workflows/kicad-checks.yml"
+      - ".github/scripts/**"
+  pull_request:
+    paths:
+      - "**.kicad_sch"
+      - "**.kicad_pcb"
+      - "**.kicad_pro"
+      - "**.kicad_dru"
+      - "fp-lib-table"
+      - "sym-lib-table"
+      - "fps/**"
+      - ".github/workflows/kicad-checks.yml"
+      - ".github/scripts/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: kicad-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PROJECT: mseq
+  FAIL_ON: error
+  # The board's silkscreen uses the Geist outline font. Without it KiCad substitutes
+  # another face and the silk geometry (and therefore some DRC results) would differ
+  # from what you see locally. Pinned to a google/fonts commit carrying Geist 1.800.
+  GEIST_URL: https://raw.githubusercontent.com/google/fonts/87a44ad3d4535f7b3a5a715a08e8944f144afd06/ofl/geist/Geist%5Bwght%5D.ttf
+  GEIST_SHA256: 73894e0448cae90a92b6c2f8732b7bb9acb7b94c418bff559dad4a18e1de9659
+
+jobs:
+  checks:
+    name: ERC + DRC (KiCad 10)
+    runs-on: ubuntu-latest
+    container:
+      image: kicad/kicad:10.0
+      # GitHub mounts the workspace and sets HOME=/github/home; running as root avoids
+      # permission issues with both and lets us create KiCad's config there.
+      options: --user root
+
+    steps:
+      - name: Check out
+        uses: actions/checkout@v7
+
+      - name: Prepare KiCad config and fonts
+        id: prepare
+        shell: bash
+        run: |
+          set -euo pipefail
+          kicad-cli version
+          ver="$(kicad-cli version | cut -d. -f1,2)"
+
+          # kicad-cli needs the global symbol/footprint library tables in the config dir of
+          # the *current* HOME (GitHub overrides HOME, so the image's pre-copied ones are unused).
+          cfg="$HOME/.config/kicad/$ver"
+          mkdir -p "$cfg"
+          cp -n /usr/share/kicad/template/*-lib-table "$cfg"/
+          ls -l "$cfg"
+
+          # Install the Geist font for the current user (fontconfig scans ~/.local/share/fonts).
+          fontdir="$HOME/.local/share/fonts"
+          mkdir -p "$fontdir"
+          python3 - "$fontdir" <<'PY'
+          import hashlib, os, sys, urllib.request
+          url, want = os.environ["GEIST_URL"], os.environ["GEIST_SHA256"]
+          dst = os.path.join(sys.argv[1], "Geist[wght].ttf")
+          data = urllib.request.urlopen(url, timeout=60).read()
+          got = hashlib.sha256(data).hexdigest()
+          if got != want:
+              raise SystemExit(f"Geist font checksum mismatch: expected {want}, got {got}")
+          with open(dst, "wb") as f:
+              f.write(data)
+          print(f"installed {dst} ({len(data)} bytes)")
+          PY
+          if command -v fc-cache >/dev/null; then fc-cache -f "$fontdir"; fi
+          if command -v fc-list >/dev/null; then fc-list | grep -i geist || true; fi
+
+      - name: ERC
+        id: erc
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p reports
+          kicad-cli sch erc --severity-all --units mm --format json \
+            -o reports/erc.json "$PROJECT.kicad_sch"
+          python3 .github/scripts/kicad_report.py erc reports/erc.json --fail-on "$FAIL_ON"
+
+      - name: DRC
+        id: drc
+        # Run even when ERC failed so both reports are produced in one go.
+        if: ${{ !cancelled() && steps.prepare.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p reports
+          # --refill-zones mirrors the GUI's default "refill all zones before DRC"; the board
+          # file is not written back (no --save-board).
+          kicad-cli pcb drc --schematic-parity --all-track-errors --refill-zones \
+            --severity-all --units mm --format json \
+            -o reports/drc.json "$PROJECT.kicad_pcb"
+          python3 .github/scripts/kicad_report.py drc reports/drc.json --fail-on "$FAIL_ON"
+
+      - name: Upload reports
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: kicad-reports
+          path: reports/
+          if-no-files-found: warn
