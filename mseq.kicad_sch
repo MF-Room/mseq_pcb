@@ -25687,7 +25687,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C59481"
+		(property "LCSC" "C2718488"
+			(at 340.36 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "2.54-1*4P"
 			(at 340.36 25.4 0)
 			(hide yes)
 			(show_name no)
