@@ -69,3 +69,6 @@ assembly/
 
 # Netlist
 *.net
+# Fabrication Toolkit (JLCPCB export plugin) output and per-project options
+production/
+fabrication-toolkit-options.json
