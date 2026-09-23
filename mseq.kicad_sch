@@ -11635,7 +11635,7 @@
 		)
 		(uuid "221d8ac4-841f-4759-89a5-f81ae9042eda")
 	)
-	(label "B7"
+	(label "SDA"
 		(at 349.25 25.4 0)
 		(effects
 			(font
@@ -11685,7 +11685,7 @@
 		)
 		(uuid "35d35885-e350-4e3c-854b-e62432950ca1")
 	)
-	(label "B6"
+	(label "SCL"
 		(at 257.81 130.81 0)
 		(effects
 			(font
@@ -11715,7 +11715,7 @@
 		)
 		(uuid "49a6856a-a0ba-4736-941c-db0d01a4872f")
 	)
-	(label "B6"
+	(label "SCL"
 		(at 349.25 22.86 0)
 		(effects
 			(font
@@ -12025,7 +12025,7 @@
 		)
 		(uuid "c11a1e87-a569-49ad-9e44-a58bddd152a0")
 	)
-	(label "B7"
+	(label "SDA"
 		(at 257.81 133.35 0)
 		(effects
 			(font
