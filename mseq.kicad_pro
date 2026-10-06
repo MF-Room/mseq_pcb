@@ -76,16 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "text_thickness|144850000|73350000|618ae86b-04f3-4b7e-b919-361385c25a54|00000000-0000-0000-0000-000000000000",
-          "Geist variable-font glyph defect in F, not a genuinely thin stroke"
-        ],
-        [
-          "text_thickness|144900000|94350000|a771df3e-b877-42df-976d-1ad04f4fda35|00000000-0000-0000-0000-000000000000",
-          "Geist variable-font glyph defect in L, not a genuinely thin stroke"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },

@@ -12729,7 +12729,7 @@
 				)
 			)
 		)
-		(property "Value" "1KR"
+		(property "Value" "3.9K"
 			(at 166.37 219.456 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12772,7 +12772,7 @@
 				)
 			)
 		)
-		(property "MPN" "0805W8F1001T5E"
+		(property "MPN" "0805W8F3901T5E"
 			(at 166.37 222.25 90)
 			(hide yes)
 			(show_name no)
@@ -12783,7 +12783,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17513"
+		(property "LCSC" "C17614"
 			(at 166.37 222.25 90)
 			(hide yes)
 			(show_name no)
@@ -19275,7 +19275,7 @@
 				)
 			)
 		)
-		(property "Value" "1KR"
+		(property "Value" "390R"
 			(at 166.37 230.886 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19318,7 +19318,7 @@
 				)
 			)
 		)
-		(property "MPN" "0805W8F1001T5E"
+		(property "MPN" "0805W8F3900T5E"
 			(at 166.37 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -19329,7 +19329,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17513"
+		(property "LCSC" "C17655"
 			(at 166.37 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -20636,7 +20636,7 @@
 				)
 			)
 		)
-		(property "Value" "1KR"
+		(property "Value" "390R"
 			(at 166.37 252.476 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20679,7 +20679,7 @@
 				)
 			)
 		)
-		(property "MPN" "0805W8F1001T5E"
+		(property "MPN" "0805W8F3900T5E"
 			(at 166.37 255.27 90)
 			(hide yes)
 			(show_name no)
@@ -20690,7 +20690,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17513"
+		(property "LCSC" "C17655"
 			(at 166.37 255.27 90)
 			(hide yes)
 			(show_name no)
@@ -23267,7 +23267,7 @@
 				)
 			)
 		)
-		(property "Value" "1KR"
+		(property "Value" "1.5K"
 			(at 163.83 262.636 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23310,7 +23310,7 @@
 				)
 			)
 		)
-		(property "MPN" "0805W8F1001T5E"
+		(property "MPN" "0805W8F1501T5E"
 			(at 163.83 265.43 90)
 			(hide yes)
 			(show_name no)
@@ -23321,7 +23321,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17513"
+		(property "LCSC" "C4310"
 			(at 163.83 265.43 90)
 			(hide yes)
 			(show_name no)
@@ -24815,7 +24815,7 @@
 				)
 			)
 		)
-		(property "Value" "1KR"
+		(property "Value" "390R"
 			(at 166.37 241.046 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24858,7 +24858,7 @@
 				)
 			)
 		)
-		(property "MPN" "0805W8F1001T5E"
+		(property "MPN" "0805W8F3900T5E"
 			(at 166.37 243.84 90)
 			(hide yes)
 			(show_name no)
@@ -24869,7 +24869,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17513"
+		(property "LCSC" "C17655"
 			(at 166.37 243.84 90)
 			(hide yes)
 			(show_name no)
@@ -25107,7 +25107,7 @@
 				)
 			)
 		)
-		(property "Value" "1KR"
+		(property "Value" "1.5K"
 			(at 163.83 271.526 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25150,7 +25150,7 @@
 				)
 			)
 		)
-		(property "MPN" "0805W8F1001T5E"
+		(property "MPN" "0805W8F1501T5E"
 			(at 163.83 274.32 90)
 			(hide yes)
 			(show_name no)
@@ -25161,7 +25161,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17513"
+		(property "LCSC" "C4310"
 			(at 163.83 274.32 90)
 			(hide yes)
 			(show_name no)
