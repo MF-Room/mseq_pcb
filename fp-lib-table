@@ -5,6 +5,7 @@
 	(lib (name "Capacitor_SMD") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/Capacitor_SMD.pretty") (options "") (descr ""))
 	(lib (name "Connector_PinHeader_1.27mm") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/Connector_PinHeader_1.27mm.pretty") (options "") (descr ""))
 	(lib (name "Connector_PinHeader_2.54mm") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/Connector_PinHeader_2.54mm.pretty") (options "") (descr ""))
+	(lib (name "Connector_PinSocket_2.54mm") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/Connector_PinSocket_2.54mm.pretty") (options "") (descr ""))
 	(lib (name "Connector_USB") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/Connector_USB.pretty") (options "") (descr ""))
 	(lib (name "Crystal") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/Crystal.pretty") (options "") (descr ""))
 	(lib (name "Diode_SMD") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/Diode_SMD.pretty") (options "") (descr ""))

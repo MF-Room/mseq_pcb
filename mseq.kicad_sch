@@ -25654,7 +25654,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 340.36 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -25687,7 +25687,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2718488"
+		(property "LCSC" "C46061763"
 			(at 340.36 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -25698,7 +25698,7 @@
 				)
 			)
 		)
-		(property "MPN" "2.54-1*4P"
+		(property "MPN" "HX PM2.54-1x4P ZC H5.7"
 			(at 340.36 25.4 0)
 			(hide yes)
 			(show_name no)
